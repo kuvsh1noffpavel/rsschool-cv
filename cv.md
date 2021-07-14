@@ -72,3 +72,9 @@ A few of my projects completed earlier:
 ## Education
 
 Vehicle Maintenance, Belarusian-Russian University, 2012.
+
+## Languages
+
+- Russian;
+- Belorussian;
+- English (A2+).
