@@ -44,3 +44,62 @@ header {
   font-size: 20px;
   color: #3b576d;
 }
+
+/* aside */
+  
+.sec-information {
+  width: 30%;
+  padding: 20px;
+  margin: 20px 0;
+  border-right: 2px solid #3b576d;
+}
+
+/* main */
+  
+.main-information {
+  width: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* content */
+
+.article {
+  margin-bottom: 20px;
+}
+  
+.article_heading {
+  font-size: 20px;
+  color: #3b576d;
+  border-bottom: 2px solid #3b576d;
+  margin-bottom: 15px;
+}
+  
+.article_heading-sec {
+  font-size: 18px;
+  color: #3b576d;
+  border-bottom: 1px dotted #3b576d;
+  margin: 10px 0;
+}
+
+.code-wrapper {
+  border-top: 1px dotted #3b576d;
+  border-bottom: 1px dotted #3b576d;
+}
+  
+article ul {
+  list-style-type: none;
+}
+  
+article ul li{
+  padding-bottom: 5px;
+}
+  
+article ul li a{
+  text-decoration: none;
+  color: #3b576d
+}
+  
+article ul li a:hover{
+  color: #000000;
+}
