@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   
@@ -107,12 +108,12 @@ article ul li a:hover{
 /* footer */
 
 .footer {
-  height : 50px;
+  padding: 20px;
   background-color: #e7eaef;
 }
 
 .footer__wrapper {
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
 }
@@ -123,10 +124,16 @@ article ul li a:hover{
 }
 
 .footer__link{
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  color: #3b576d
+  color: #3b576d;
 }
   
 .footer__link:hover{
   color: #000000;
-}  
+}
+
+.footer__link-icon {
+  height: 20px;
+}
